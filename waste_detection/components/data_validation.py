@@ -26,7 +26,7 @@ class DataValidation:
             all_files = os.listdir(self.data_ingestion_artifact.feature_store_path)
 
             for file in all_files:
-                if (file not in self.data_validation_config.required_file_list) or (os.path.getsize(self.data_validation_config.required_file_list) == 0):
+                if (file not in self.data_validation_config.required_file_list):
                     validation_status=False
                     os.makedirs(self.data_validation_config.data_validation_dir, exist_ok=True)
                     with open(self.data_validation_config.valid_status_file_dir, 'w') as f:
