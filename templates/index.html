@@ -197,20 +197,21 @@
 	<!-- Header -->
 <header class="bg-primary text-center py-5 mb-4">
 	<div class="container">
-	  <h1 class="font-weight-light text-white">Waste Detection using YOLOv5</h1>
+	  <h1 class="font-weight-light text-white"><font color="black"><b>Waste Detection with YOLOv5</b></font></h1>
 	</div>
   </header>
   
   <!-- Page Content -->
   <div class="container">
-
-	  
+	
 	<form class="input-group upload-data row">	
-		<div class="col-xl-6 col-md-6 col-sm-6">
+		<div class="col-xl-6 col-md-6 col-sm-6 text-center">
+        <p><font color="red"><b>To upload your image click here:</b></font></p>
 		<button type="button" class="btn btn-primary col-12" id="uload">Upload</button>
 		</div>
-		<div class="col-xl-6 col-md-6 col-sm-6">
-			<button id="send" type="button" class="btn btn-success col-12">Predict</button>
+		<div class="col-xl-6 col-md-6 col-sm-6 text-center">
+        <p><font color="red"><b>To predict click here:</b></font></p>
+		<button id="send" type="button" class="btn btn-success col-12">Predict</button>
 		</div>
 
 		<!-- change url value  -->
@@ -224,7 +225,7 @@
 	  <div class="col-xl-6 col-md-6 col-sm-6 mb-6">
 		<div class="card border-0 shadow upload-image ">
 		  <!-- <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="..."> -->
-		  	<video autoplay id="video" poster="https://img.freepik.com/free-vector/group-young-people-posing-photo_52683-18824.jpg?size=338&ext=jpg"></video>
+		  	<!-- <video autoplay id="video" poster="https://www.freepik.com/free-vector/illustration-eye-recognition-scanning_2632393.htm#fromView=search&page=1&position=51&uuid=6e7ab5fc-3666-4d03-a661-9b9101fb2cd3"></video> -->
 			<img src="" class="" id="photo">
 			<canvas style="display:none;" id="canvas"></canvas>
 		  <!-- <div class="card-body text-center">
@@ -233,7 +234,7 @@
 		</div>
 	  </div>
 	  <!-- Team Member 2 -->
-	  <div class="col-xl-6 col-md-6 col-sm-6 mb-6">
+	  <div class="col-xl-6 col-md-6 col-sm-5 mb-6">
 		<div class="card border-0 shadow res-part2">
 		  <div class="card-body text-center">
 			<h5 class="card-title mb-0">Prediction Results</h5>
@@ -242,15 +243,37 @@
 	  </div>
 	</div>
 	<!-- /.row -->
-
+  <br>
+  <br>
+  <div class="row">
+    <div class="col text-center">
+      <p><font color="red"><b>To train the model click here:</b></font></p>
+      <button type="button" class="btn btn-primary col-12 mt-3" onclick="redirectToTrain()">Train Model</button>
   
+      <!-- JavaScript function to redirect to the '/train' route -->
+      <script>
+        function redirectToTrain() {
+          window.location.href = '/train'; // Change '/train' to the actual route
+        }
+      </script>
+    </div>
+  
+    <div class="col text-center">
+      <p><font color="red"><b>To start the camera for live prediction click here:</b></font></p>
+      <button type="button" class="btn btn-success col-12 mt-3" onclick="redirectToLive()">Run the Live predictor</button>
+  
+      <!-- JavaScript function to redirect to the '/Live' route -->
+      <script>
+        function redirectToLive() {
+          window.location.href = '/live'; // Change '/Live' to the actual route
+        }
+      </script>
+    </div>
+  </div>
   </div>
   <!-- /.container -->
 
-	<img class="logo"
-		src="https://apparel.ineuronvision.com/static/logo.png" />
-
-
+	
 	<div id="loading">
 		<div class="loader"></div>
 	</div>
