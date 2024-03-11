@@ -15,7 +15,7 @@ list_of_files = [
     f"{project_name}/components/data_validation.py",
     f"{project_name}/components/model_trainer.py",
     f"{project_name}/constants/__init__.py",
-    f"{project_name}/constants/training_pipeline/__init__.py"
+    f"{project_name}/constants/training_pipeline/__init__.py",
     f"{project_name}/constant/application.py",
     f"{project_name}/entity/config_entity.py",
     f"{project_name}/entity/artifacts_entity.py",
@@ -25,6 +25,7 @@ list_of_files = [
     f"{project_name}/pipeline/training_pipeline.py",
     f"{project_name}/utils/__init__.py",
     f"{project_name}/utils/main_utils.py",
+    "research/trials.ipynb",
     "templates/index.html",
     "app.py",
     "Dockerfile",
