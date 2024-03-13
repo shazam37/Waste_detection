@@ -11,7 +11,7 @@ You can install all the required dependencies with requirements.txt file and the
 
 ![Screenshot from 2024-03-11 20-01-11](https://github.com/shazam37/Waste_detection/assets/119686545/387b8bf1-c56c-4689-80c4-ed4ec304b932)
 
-You can train the model on your local system by clicking on the button given. You can even run a live camera for waste detection. The interface looks like: 
+You can train the model on your local system by clicking on the button given. You can even run a live camera for waste detection. The interface looks like (You can see a plastic bottle being detected with a probability of 0.8): 
 
 ![Screenshot from 2024-03-11 20-03-06](https://github.com/shazam37/Waste_detection/assets/119686545/7c6fbb2f-a67e-4c90-a2bb-5049c270acc3)
 
