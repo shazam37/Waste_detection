@@ -7,7 +7,7 @@ Here I have Implemented a state of the art Computer vision model meant for objec
 ![yolo](https://github.com/shazam37/Waste_detection/assets/119686545/16764aa5-4dc1-451f-ba1f-2e3c489abe7b)
 
 
-I had to first collect waste image data manually and then label them using autodistill. I chose to go with 13 different waste objects, each having more than 50 images and their labelled counterparts. The images were properly augmented and fed into the model for trainig. The best model right now is trained on 200 epochs with a batch size of 16 and has an accuracy of 92%. The data about other parameters used can be found in "config_entity" file (You can play around with the parameters to get a better score). The post-training plot for different metrics can be visualised with tensorboard. However, all the model training related plots can be found in the research notebook.
+I had to first collect waste image data manually and then label them using autodistill. I chose to go with 13 different waste objects, each having more than 50 images and their labelled counterparts. The images were properly augmented and fed into the model for trainig. The best model right now is trained on 200 epochs with a batch size of 16 and has an accuracy of 92%. The data about other parameters used can be found in "config_entity" file (You can play around with the parameters to get a better score). The post-training plot for different metrics can be visualised with tensorboard. However, all the model training related plots can be found in the research notebook. The pipeline was built keeping in mind the principles of MLOPs. 
 
 The trained model was packaged into an application using Flask and is ready to be deployed on AWS with the help of Docker. 
 
