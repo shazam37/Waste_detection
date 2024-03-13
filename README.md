@@ -15,4 +15,6 @@ You can train the model on your local system by clicking on the button given. Yo
 
 ![Screenshot from 2024-03-11 20-03-06](https://github.com/shazam37/Waste_detection/assets/119686545/7c6fbb2f-a67e-4c90-a2bb-5049c270acc3)
 
-Feel free to add more waste objects into your pipeline!
+Feel free to add more waste objects into your pipeline! 
+
+Such an application is used widely in many industries nowadays for detecting certain object of interests. It can be used for detecting whether a motorbike rider is wearing a helmet or not, or can be used in mechanical industries for pointing out defective parts. Its potential is endless and what I just created is a glimpse of possibilities!
