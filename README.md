@@ -7,7 +7,7 @@ Here I have Implemented a state of the art Computer vision model meant for objec
 The trained model was packaged into an application using Flask and is ready to be deployed on AWS with the help of Docker. 
 
 You can install all the required dependencies with requirements.txt file and then run the app.py file to run the app. The application interface looks like:
-(Here we have uploaded image of a banana to detect)
+(Here I have uploaded image of a banana to detect)
 
 ![Screenshot from 2024-03-11 20-01-11](https://github.com/shazam37/Waste_detection/assets/119686545/387b8bf1-c56c-4689-80c4-ed4ec304b932)
 
