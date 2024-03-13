@@ -2,7 +2,7 @@
 
 Waste has always been a big issue for society requiring constant innovation. The major problem with waste is its categorisation which takes a lot of time to do manually. With the recent technological advancements, digital segregation of waste has seen an upsurge. Computer vision algorithms can now be trained to label an object as a waste with a confidence score (probability). 
 
-Here I have Implemented a state of the art Computer vision model meant for object detection: YOLOv5. I had to first collect waste image data manually and then label them using autodistill. I chose to go with 13 different waste objects, each having more than 50 images and their labelled counterparts. The images were properly augmented and fed into the model for trainig. The best model right now is trained on 200 epochs with a batch size of 16. The data about other parameters used can be found in "config_entity" file. 
+Here I have Implemented a state of the art Computer vision model meant for object detection: YOLOv5. I had to first collect waste image data manually and then label them using autodistill. I chose to go with 13 different waste objects, each having more than 50 images and their labelled counterparts. The images were properly augmented and fed into the model for trainig. The best model right now is trained on 200 epochs with a batch size of 16. The data about other parameters used can be found in "config_entity" file (You can play around with the parameters to get a better score). 
 
 The trained model was packaged into an application using Flask and is ready to be deployed on AWS with the help of Docker. 
 
